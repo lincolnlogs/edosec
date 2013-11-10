@@ -1,0 +1,13 @@
+---
+layout: post
+title: November 2013 EdoSec
+event-summary: EdoSec
+event-timezone: Asia/Tokyo
+event-start: 20131113T190000
+event-end: 20131113T230000
+event-location: Shibuya Hobgoblin
+---
+
+h1. November 13, 2013
+
+EdpSec will be at Shibuya Hobgoblin and starts at 7pm.
