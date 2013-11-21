@@ -20,7 +20,7 @@ body {
   /* font: 16px helvetica, arial, clean, sans-serif; 
   *font-size: small;
   */
-  text-align: center;
+  text-align: left;
   font-family: "Menlo", "Monaco", "Lucida Console", "Courier New", "Courier", "monospace";
   font-size: medium;
 }
@@ -45,18 +45,19 @@ a:link {
   font-size: 1em;
 }
 
-a:hover {
-  color: black;
-}
-
 a:visited {
   color: #006f2c;
   font-size: 1em;
 }
 
+a:hover {
+  color: black;
+}
+
 table {
   font: inherit;
   font-size: 1em;
+  padding: 1em;
 }
 
 /*****************************************************************************/
