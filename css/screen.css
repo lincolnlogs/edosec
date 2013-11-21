@@ -41,7 +41,11 @@ a {
   color: #00aa19;
 }
 
+<<<<<<< HEAD
 a:visited {
+=======
+a:link {
+>>>>>>> Fonts and tables
   font-size: 100%;
 }
 
