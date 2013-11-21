@@ -107,6 +107,10 @@ ul.posts {
     text-decoration: none;
   }
 
+  .site .title a:link {
+    font-size: 1em;
+  }
+
   .site .title a:hover {
     color: black;
   }
