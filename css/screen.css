@@ -41,12 +41,17 @@ a {
   color: #00aa19;
 }
 
+a:visited {
+  font-size: 100%;
+}
+
 a:hover {
   color: black;
 }
 
 a:visited {
   color: #006f2c;
+  font-size: 100%;
 }
 
 table {
