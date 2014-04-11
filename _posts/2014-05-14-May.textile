@@ -1,0 +1,13 @@
+---
+layout: post
+title: May 2014 EdoSec
+event-summary: EdoSec
+event-timezone: Asia/Tokyo
+event-start: 20140514T190000
+event-end: 20140514T220000
+event-location: Shibuya Hobgoblin
+---
+
+h1. May 14, 2014
+
+EdoSec will be at Shibuya Hobgoblin and starts at 7pm.
