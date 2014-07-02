@@ -1,0 +1,13 @@
+---
+layout: post
+title: July 2014 EdoSec
+event-summary: EdoSec
+event-timezone: Asia/Tokyo
+event-start: 20140709T190000
+event-end: 20140709T220000
+event-location: Shibuya Hobgoblin
+---
+
+h1. July 9, 2014
+
+EdoSec will be at Shibuya Hobgoblin and starts at 7pm.
