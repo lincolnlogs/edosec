@@ -1,6 +1,6 @@
 ---
 layout: post
-title: august 2014 EdoSec
+title: August 2014 EdoSec
 event-summary: EdoSec
 event-timezone: Asia/Tokyo
 event-start: 20140821T190000
