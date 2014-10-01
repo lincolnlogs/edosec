@@ -9,6 +9,29 @@
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 
+   <!-- Table CSS -->
+    <style>
+		#content-wrapper{
+			display:table;
+		}
+
+		#content{
+			display:table-row;
+		}
+
+		#content>div{
+			display:table-cell
+		}
+
+		#content-wrapper{
+			width:100%;
+			height:100%;
+			top:0px;
+			left:0px;
+			position:absolute;
+		}
+	</style>
+   
    <script type="text/javascript">
     var _kmq = _kmq || [];
     var _kmk = _kmk || 'f199b6fcfe17c2c9d9276632a934da7b49e377ce';
@@ -35,40 +58,40 @@
     <h1>EdoSec</h1>
   </div>
   <h3>Tokyo Security Professional Meetup</h3>
-  <table cellpadding="10">
-    <h3><col />
-	<tr>
-	  <td><li>No membership or entry fee.</td>
-	  <td><li>会員制も入場料もなし。</td>
-	</tr>
-    <tr>
-	  <td><li>No sponsors or vendor pitches.</td>
-	  <td><li>スポンサーも勧誘もなし。</td>
-	</tr>
-    <tr>
-	  <td><li>No agenda.</td>
-	  <td><li>アジェンダなし。</td>
-	</tr>
-    <tr>
-	  <td><li>No RSVP.  Don't worry about being "late".</td>
-	  <td><li>個人予約の必要性なし。「遅れる」ことはない。</td>
-	</tr>
-    <tr>
-	  <td><li>Get to know other security pros.</td>
-	  <td><li>セキュリティ業界プロが気楽に集まる場です。</td>
-	</tr>
-    <tr>
-	  <td><li>Open to all.</td>
-	  <td><li>来る者拒まず。</td>
-	</tr>
-	</h3>
-  </table>
-<h3>
-Usually at a pub somewhere on second Wednesdays from 7pm, except when it's not.<br>
+  <div id="content-wrapper">
+    <h4><div id="content">
+      <div id="EN">
+		No membership or entry fee.<br>
+		No sponsors or vendor pitches.<br>
+		No agenda.<br>
+		No RSVP.  Don't worry about being "late".<br>
+		Get to know other security pros.<br>
+		Open to all.<br>
+		Bring a friend!<br>
+	  </div>
+	  <div id="JP">
+		会員制も入場料もなし。<br>
+		スポンサーも勧誘もなし。<br>
+		アジェンダなし。<br>
+		個人予約の必要性なし。「遅れる」ことはない。<br>
+		セキュリティ業界プロが気楽に集まる場です。<br>
+		来る者拒まず。<br>
+		同僚も連れてきて！<br>
+	  </div>
+	</div></h4>
+  </div>
+</div>
+
+  <HR width="50%" color="green">
+
+<h4>
+Usually at a pub somewhere on second Wednesdays from 7pm... except when it's not.<br>
 基本的に第2水曜日19時からどこかのパブで。（お盆の時期など変わることもある）<br>
-**Note: EdoSec will be trying out an East/West switch every other month. September will be at <a href="http://beerinjapan.com/bij/891/bulldog-ginza/">Bulldog</a> in Ginza/Yurakucho.<br>
-※開催地を各月で東西で場所を切り替えることを考えています。9月は銀座/有楽町にある<a href="http://www.beer-bulldog.com/access.html">Bulldog</a>で開催します。
-</h3>
+**Note: EdoSec will be trying out an East/West switch every other month. October will be at <a href="www.the-aldgate.com">The Aldgate</a> in Shibuya.<br>
+※開催地を各月で東西で場所を切り替えることを考えています。10月は渋谷の<a href="http://www.the-aldgate.com/index2.htm">オールゲイト</a>で開催します。
+</h4>
+
+<HR width="50%" color="green">
   
   {{ content }}
   
@@ -77,7 +100,8 @@ Usually at a pub somewhere on second Wednesdays from 7pm, except when it's not.<
       <ul>
         <li><a href="/calendar.ics">Calendar</a></li>
         <li><a href="https://twitter.com/Edosec">Twitter</a></li>
-        <li class="copyright">Brought to you by <a href="https://github.com/lincolnlogs/edosec">some</a> <a href="https://github.com/bhardin/silisec">folks.</a>
+		<li><a href="https://www.facebook.com/edosectokyo">Facebook</a></li>
+        <li class="copyright">Brought to you by <a href="https://github.com/lincolnlogs/edosec">me</a> and <a href="https://github.com/bhardin/silisec">him.</a>
       </ul>
     </div>
   </div>

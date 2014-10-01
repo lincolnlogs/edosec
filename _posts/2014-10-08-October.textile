@@ -1,0 +1,14 @@
+---
+layout: post
+title: October 2014 EdoSec
+event-summary: EdoSec
+event-timezone: Asia/Tokyo
+event-start: 20140910T190000
+event-end: 20140910T220000
+event-location: The Aldgate (Shibuya)
+---
+
+h1. October 8, 2014
+
+EdoSec West will be at The Aldgate in Shibuya and starts at 7pm.
+**Note** Change of venue
