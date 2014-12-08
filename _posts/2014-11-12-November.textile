@@ -1,0 +1,14 @@
+---
+layout: post
+title: November 2014 EdoSec
+event-summary: EdoSec
+event-timezone: Asia/Tokyo
+event-start: 20141112T190000
+event-end: 20141112T220000
+event-location: Bulldog (Ginza/Yurakucho)
+---
+
+h1. Noember 12, 2014
+
+EdoSec EAST will be at Bulldog in Ginza/Yurakucho and starts at 7pm.
+**Note** Monthly East/West venue switch
