@@ -1,14 +1,13 @@
 ---
 layout: post
-title: December 2014 EdoSec
+title: January 2015 EdoSec
 event-summary: EdoSec
 event-timezone: Asia/Tokyo
-event-start: 20141210T190000
-event-end: 20141210T220000
+event-start: 20150114T190000
+event-end: 20150114T220000
 event-location: The Aldgate (Shibuya)
 ---
 
-h1. December 10, 2014
+h1. January 14, 2015
 
-EdoSec WEST will be at The Aldgate in Shibuya and starts at 7pm.
-**Note** Monthly East/West venue switch
+EdoSec will be at The Aldgate in Shibuya and starts at 7pm.
