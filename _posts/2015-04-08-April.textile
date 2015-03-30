@@ -1,0 +1,13 @@
+---
+layout: post
+title: April 2015 EdoSec
+event-summary: EdoSec
+event-timezone: Asia/Tokyo
+event-start: 20150408T190000
+event-end: 20150408T220000
+event-location: The Aldgate (Shibuya)
+---
+
+h1. April 8, 2015
+
+EdoSec will be at The Aldgate in Shibuya and starts at 7pm.
