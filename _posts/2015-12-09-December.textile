@@ -8,6 +8,6 @@ event-end: 20151209T220000
 event-location: The Aldgate (Shibuya)
 ---
 
-h1. December 11, 2015
+h1. December 9, 2015
 
 EdoSec will be at The Aldgate in Shibuya and starts at 7pm.
