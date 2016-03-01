@@ -1,3 +1,17 @@
+# Site settings
+title: EdoSec | 江戸sec
+description: > # this means to ignore newlines until "baseurl:"
+  Tokyo Security Professional Meetup | セキュリティの輪を広げよう
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://edos.ec"
+twitter_username:  Edosec
+facebook_username: edosectokyo
+github_username:   lincolnlogs
+linkedin_username: 
+google_id:         
+copyright: Forked from <a href="https://github.com/bhardin/silisec">BHardin</a>, munged by <a href="https://github.com/lincolnlogs/edosec">Lincolnlogs</a>
+
+# Jekyll build settings
 permalink: /meetup/:year/:title
-exclude: createPost.rb, CNAME, README.md
+exclude: [.gitignore, createPost.rb, CNAME, Gemfile, Gemfile.lock, README.md]
 markdown: kramdown

@@ -6,7 +6,7 @@ Edos.ec is automatically transformed by [Jekyll](http://github.com/mojombo/jekyl
 
 To generate next month's EdoSec page, run the following commands:
 
-	./createPost.rb
+	./rake
 	git add .
 	git commit -m "New Meetup"
 	git push origin

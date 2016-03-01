@@ -1,78 +1,62 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }} - Tokyo Security Meetup</title>
-   <meta name="author" content="Chris Lincoln, based on code by Brett Hardin (Silisec)" />
-   
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-
-</head>
-
+  {% include head.html %}
 
 <body>
 
-<a href="http://github.com/lincolnlogs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-
 <div class="site">
-  <div class="title">
-    <h1>EdoSec</h1>
-  </div>
-  <h3>Tokyo Security Professional Meetup | セキュリティの輪を広げよう！</h3>
-  <table cellpadding="20">
-    <col />
-	<tr>
-	  <td><li>会員制も入場料もコース注文もなし。</td>
-	  <td><li>No membership or entry fee.</td>
-	</tr>
-    <tr>
-	  <td><li>スポンサーも勧誘もなし。</td>
-	  <td><li>No sponsors or vendor pitches.</td>
-	</tr>
-    <tr>
-	  <td><li>アジェンダなし。</td>
-	  <td><li>No agenda.</td>
-	</tr>
-    <tr>
-	  <td><li>参加表明の必要性なし。開始時間過ぎても適当に参加しても良し。</td>
-	  <td><li>No RSVP.  Don't worry about being "late".</td>
-	</tr>
-    <tr>
-	  <td><li>セキュリティ業界プロが気楽に集まって知り合う場です。</td>
-	  <td><li>Get to know other security pros.</td>
-	</tr>
-    <tr>
-	  <td><li>来る者拒まず。</td>
-	  <td><li>Open to all.</td>
-	</tr>
-    <tr>
-	  <td><li>同僚も連れてきて！</td>
-	  <td><li>Bring a friend!</td>
-	</tr>
-  </table>
+	<div class="title">
+		<h1>EdoSec</h1>
+	</div>
+	<h4>Tokyo Security Professional Meetup | セキュリティの輪を広げよう！</h4>
 </div>
-
-  <HR width="100%" color="green">
-    原則第2水曜日19時から渋谷か有楽町のパブで。（お盆の時期など変わることもある）<br>
-    下のNext EdoSec Eventリンク先で確認できます。<br>
-    Usually at a pub in Shibuya or Yurakucho on second Wednesdays from 7pm... except when it's not.<br>
-    Check the Next Event link below.<br>
-  <HR width="100%" color="green">
+<div class="table">
+	<table>
+		<tr>
+			<td>セキュリティ業界プロが気楽に集まって知り合う場です。</td>
+			<td>Get to know other security pros.</td>
+		</tr>
+		<tr>
+			<td>みんな歓迎。来る者拒まず。</td>
+			<td>Open to all.</td>
+		</tr>
+		<tr>
+			<td>会員制も入場料もコース注文もなし。</td>
+			<td>No membership, entry fee, or course menu.</td>
+		</tr>
+		<tr>
+			<td>スポンサーも勧誘もなし。パワーポイント禁止！</td>
+			<td>No sponsors or vendor pitches.　　No bloody PowerPoint.</td>
+		</tr>
+		<tr>
+			<td>アジェンダなし。</td>
+			<td>No agenda.</td>
+		</tr>
+		<tr>
+			<td>勉強になる保証なし。</td>
+			<td>No guarantee you'll learn anything.</td>
+		</tr>
+		<tr>
+			<td>参加表明の必要性なし。開始時間過ぎても適当に参加してもいい。</td>
+			<td>No RSVP needed.  It's OK to be "late".</td>
+		</tr>
+		<tr>
+			<td>同僚も連れてきて！</td>
+			<td>Bring a friend!</td>
+		</tr>
+	</table>
+</div>
+<div class="site">
+	<HR width="100%" color="green">
+		原則第2水曜日19時から渋谷か有楽町のパブで。（お盆の時期など変わることもある）<br>
+		Usually at a pub in Shibuya or Yurakucho on second Wednesdays from 7pm... except when it's not.<br>
+	<HR width="100%" color="green">
   
   {{ content }}
   
-  <div class="footer">
-    <div class="contact">
-      <ul>
-        <li><a href="/calendar.ics">予定表追加/Calendar</a></li>
-        <li><a href="https://twitter.com/Edosec">Twitter</a></li>
-		<li><a href="https://www.facebook.com/edosectokyo">Facebook</a></li>
-        <li class="copyright">Forked from <a href="https://github.com/bhardin/silisec">BHardin</a>, munged by <a href="https://github.com/lincolnlogs/edosec">Lincolnlogs</a>.
-      </ul>
-    </div>
-  </div>
+    {% include footer.html %}
 
+</div>
 </body>
 </html>

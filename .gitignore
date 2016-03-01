@@ -1,2 +1,7 @@
-*.tmproj
-/_site/*
+_dev
+_site
+.sass-cache
+.jekyll-metadata
+.lock
+
+*.lnk

@@ -14,13 +14,14 @@ task :post do
 	data << "event-summary: EdoSec\n"
 	data << "event-timezone: Japan/Tokyo\n"
 	data << "event-start: " + next_event.strftime("%Y%m%d") + "T190000\n"
-	data << "event-end: " + next_event.strftime("%Y%m%d") + "T230000\n"
+	data << "event-end: " + next_event.strftime("%Y%m%d") + "T220000\n"
 	data << "event-location: Shibuya Hobgoblin\n"
 	data << "---\n"
 	data << "\n"
 	data << "h1. " + next_event.strftime("%B %-d, %Y")
 	data << "\n\n"
 	data << "EdoSec will be at Shibuya Hobgoblin and starts at 7pm."
+	data << " 江戸secは19時よりホブゴブリン渋谷にて開催します。"
 	data << "\n"
 
 	File.open(POST_PATH + filename, 'w') {|f| f.write(data) }
